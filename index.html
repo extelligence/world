@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="./stylesheets/custom.css"/>
+    <script type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script src="./javascripts/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
+
+    <title>The Japan</title>
+  </head>
+  <body>
+    <img src="./images/gion.jpg" class="bgmaximage" />
+    <embed src="./bgms/gion.mp3" hidden="true" autostart="true" loop="true" volume="50">
+
+    <div class="wrapper">
+      <div class="container">
+      </div>
+    </div>
+
+    <script>
+      $(function(){
+        jQuery('img.bgmaximage').maxImage({
+          isBackground: true,
+          overflow: 'auto'
+        });
+      }); 
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,17 @@
+img.bgmaximage {position:fixed !important;}
+
+p {
+  color: #fff;
+}
+
+.wrapper{
+  background:url('../images/bg-body.png') repeat left top;
+  margin-top:50px;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-box-shadow:0 0 10px #333333;
+  -webkit-box-shadow:0 0 10px #333333;
+  width: 80%;
+  height: 200px;
+  text-align:left;position:relative;z-index:2;
+}
